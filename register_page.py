@@ -6,7 +6,7 @@ class RegisterPage(QWidget):
     def __init__(self, main_window):
         super().__init__()
         self.main_window = main_window  # Store the reference to the MainAuth window
-        self.setWindowTitle("Register")
+        self.setWindowTitle("Sign up to start listening")
         self.setGeometry(100, 100, 300, 250)
         self.setup_ui()
 
